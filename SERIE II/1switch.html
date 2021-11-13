@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor=skyblue>
+
+<p>Escribe Triste, Cansado o Extrovertido y haga clic en el botón.</p>
+<p>Depende lo que eligas se ejecutara un código basado en la entrada.</p>
+
+<input id="myInput" type="text">
+
+<button onclick="myFunction()">Dale</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var text;
+    var emociones = document.getElementById("myInput").value;
+
+    switch(emociones) {
+        case "Triste":
+            text = "Feliz";
+	    break;
+        case "Cansado":
+	    text = "Activo";
+	    break;
+        case "Extrovertido":
+	    text = "Introvertido";
+	    break;
+        default:
+	    text = "Nunca he escuchado ese sentimiento";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>

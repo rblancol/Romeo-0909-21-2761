@@ -1,0 +1,7 @@
+ body {
+    height: 10px;
+    background-image: url(img/camion.png);
+    background-repeat:no-repeat;
+    
+    background-size: 45rem;
+  }

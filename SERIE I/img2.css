@@ -1,0 +1,7 @@
+body {
+    height: 10px;
+    background-image: url(img/amazon.jpg);
+    background-repeat:no-repeat;
+    
+    background-size: 70rem;
+  }
